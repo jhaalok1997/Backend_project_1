@@ -26,3 +26,5 @@ const uploadCloudinary = async (localFilePath) => {
         console.error("failed to upload the file")
     }
 }
+
+export default uploadCloudinary;
